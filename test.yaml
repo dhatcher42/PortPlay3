@@ -16,3 +16,4 @@ integrations:
  pagerduty:
    service-url: a-tool.com
 ---
+schema-version: blank
