@@ -1,0 +1,17 @@
+schema-version: v2.1
+dd-service: newrepo
+team: platform
+description: services
+links:
+ - name: Source
+   type: repo
+   provider: github
+   url: someuri.com
+ - name: Different
+   type: repo
+   provider: gitlab
+   url: test.com
+tags: ["env:dev","env:staging","env:production"]
+integrations:
+ pagerduty:
+   service-url: a-tool.com
